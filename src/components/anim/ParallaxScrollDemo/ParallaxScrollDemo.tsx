@@ -6,10 +6,10 @@ const ParallaxScrollDemo = () => {
 };
 export const products = [
   {
-    title: "Moonbeam",
-    link: "https://gomoonbeam.com",
+    title: "Video Editing",
+    link: "https://www.adobe.com/nl/products/premiere/campaign/pricing.html?mv=search&mv=search&mv2=paidsearch&sdid=G4FRYP7G&ef_id=CjwKCAiArLyuBhA7EiwA-qo80KWgcZEQ-jDZFPC6Tm3njYAWEEDUwS1OwtGXtT3CWzF5diNpg1MJ9hoCbr8QAvD_BwE:G:s&s_kwcid=AL!3085!3!600767916159!e!!g!!adobe%20premiere%20pro!1441877182!60095930801&gad_source=1&gclid=CjwKCAiArLyuBhA7EiwA-qo80KWgcZEQ-jDZFPC6Tm3njYAWEEDUwS1OwtGXtT3CWzF5diNpg1MJ9hoCbr8QAvD_BwE",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Adobe_Premiere_Pro_CC_icon.svg/800px-Adobe_Premiere_Pro_CC_icon.svg.png",
   },
   {
     title: "Cursor",

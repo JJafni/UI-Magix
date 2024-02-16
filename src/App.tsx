@@ -2,7 +2,6 @@ import {
   HeroScroll,
   ThemeSwitcher,
   ObjectInView,
-  AnimatedPinDemo,
   CardDaccord,
   ParallaxScrollDemo,
 } from "./components";
@@ -58,7 +57,6 @@ const App = () => {
           <CardDaccord />
         </div>
         <div style={{ marginTop: "50px" }}>
-          <AnimatedPinDemo />
         </div>
         <div
           style={{

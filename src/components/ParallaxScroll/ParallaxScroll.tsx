@@ -7,7 +7,8 @@ import {
   useSpring,
   MotionValue,
 } from "framer-motion";
-import { Image, Link } from "@nextui-org/react";
+import { PinContainer } from "../../components";
+import { Image } from "@nextui-org/react";
 
 export const ParallaxScroll = ({
   products,
@@ -131,17 +132,14 @@ export const ProductCard = ({
       style={{
         x: translate,
       }}
-      whileHover={{
-        y: -20,
-      }}
       key={product.title}
       className="group product h-96 w-[30rem] relative flex-shrink-0"
     >
-      <Image width={600} alt="NextUI hero Image" src={product.thumbnail} />
-      <div className="absolute inset-0 h-full w-full opacity-0 "></div>
-      <h2 className="absolute bottom-4 left-4 opacity-0 group-hover:opacity-100 text-white">
-        {product.title}
-      </h2>
+      <PinContainer title={product.title} href="https://twitter.com">
+        <div className="flex basis-full tracking-tight text-slate-100/50 w-[30rem]  ">
+          <Image width={600} alt="NextUI hero Image" src={product.thumbnail} />
+        </div>
+      </PinContainer>
     </motion.div>
   );
 };
