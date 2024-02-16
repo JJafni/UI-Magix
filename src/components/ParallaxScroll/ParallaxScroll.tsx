@@ -137,7 +137,7 @@ export const ProductCard = ({
     >
       <PinContainer title={product.title} href="https://twitter.com">
         <div className="flex basis-full tracking-tight text-slate-100/50 w-[30rem]  ">
-          <Image width={601} alt="NextUI hero Image" src={product.thumbnail} />
+          <Image width={600} alt="NextUI hero Image" src={product.thumbnail} />
         </div>
       </PinContainer>
     </motion.div>
