@@ -4,6 +4,7 @@ import {
   ObjectInView,
   AnimatedPinDemo,
   CardDaccord,
+  ParallaxScrollDemo,
 } from "./components";
 import "./App.css";
 import {
@@ -52,6 +53,7 @@ const App = () => {
             </NavbarItem>
           </NavbarContent>
         </Navbar>
+        <ParallaxScrollDemo />
         <div style={{ marginTop: "50px" }}>
           <CardDaccord />
         </div>

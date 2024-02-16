@@ -5,3 +5,4 @@ export * from "./ObjectInView";
 export * from "./ContainerScroll";
 export * from "./3d-pin";
 export * from "./CardDaccord";
+export * from "./ParallaxScroll";
